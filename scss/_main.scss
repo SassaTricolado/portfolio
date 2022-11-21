@@ -1,0 +1,80 @@
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+    .main-card {
+        .welcome {
+            font-size: 2rem;
+        }
+        .section-title{
+            font-size: 3.5rem;
+        }
+        .section-paragraph {
+            font-size: 1.3rem;
+            color: #414141;
+        }
+    }
+    .samuel-img {
+        img {
+            width: 310px;
+            border-radius: 10px;
+        }
+    }
+}
+
+.btn {
+    border-style: none;
+    background-color: $fontColor;
+    font-size: 1.3rem;
+    border-radius: 0.25rem;
+    width: 14rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: $primaryColor;
+    &:hover {
+        background-color: $secondColor;
+    }
+}
+
+@media (min-width: 767px) {
+    .main {
+        justify-content: space-around;
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        display: grid;
+        width: 50rem;
+        justify-content: center;
+        padding-top: 2rem;
+        .main-card {
+            .welcome {
+                font-size: 4rem;
+            }
+            .section-title{
+                font-size: 5rem;
+            }
+            .section-paragraph {
+                font-size: 3rem;
+            }
+        }
+        .samuel-img {
+            text-align: center;
+            img {
+                width: 40rem;
+                padding-top: 3rem;
+            }
+        }
+    }
+    .btn-div {    
+        text-align: center;
+        .btn {
+        font-size: 3rem;
+        }
+    }
+}

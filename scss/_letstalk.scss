@@ -1,0 +1,30 @@
+.lets-talk {
+    padding: 2rem;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    .lets-talk-title {
+        font-size: 4rem;
+        font-weight: 900;
+    }
+    .lets-talk-paragraph {
+        font-size: 1.1rem;
+        color: #414141;
+    }
+}
+
+@media (max-width: 500px) {
+    .lets-talk {
+        width: 50rem;
+        .lets-talk-title {
+            font-size: 5rem;
+        }
+        .lets-talk-paragraph {
+            font-size: 2rem;
+        }
+        a {
+            font-size: 2rem;
+            width: 15rem;
+        }
+    }
+}

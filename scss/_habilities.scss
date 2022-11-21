@@ -1,0 +1,71 @@
+.habilities {
+    background-color: $fontColor;
+    display: grid;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+    p {
+        color: $primaryColor;
+        background-color: $fontColor;
+    }
+    div {
+        background-color: $fontColor;
+        display: flex;
+        justify-content: space-around;
+        img {
+            background-color: $fontColor;
+            width: 200px; 
+        }
+    }
+    .habilities-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 767px) {
+    .habilities {
+        justify-content: space-around;
+        padding-left: 22rem;
+        padding-right: 22rem;
+    }
+}
+
+@media(max-width: 500px) {
+    .habilities {
+        width: 50rem;
+        .habilities-title {
+            font-size: 4rem;
+        }
+        p {
+            text-align: center;
+            font-size: 2rem;
+        }
+        .lang-program {
+            display: grid;
+        }
+        .hability {
+            img {
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1024px) {
+    .habilities {
+        div {
+            img {
+                width: 190px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1440px) {
+    .habilities {
+        div {
+            img {
+                width: 240px;
+            }
+        }
+    }
+}

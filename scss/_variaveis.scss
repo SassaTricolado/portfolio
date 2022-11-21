@@ -1,0 +1,19 @@
+$primaryColor: #080808;
+$fontColor: #d8ddd8;
+$secondColor: #ff0044;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $primaryColor;
+    font-family: 'Lato', sans-serif;
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+p {
+    color: $fontColor;
+}
+

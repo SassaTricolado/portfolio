@@ -1,0 +1,40 @@
+.who-iam {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    div {
+        background-color: $secondColor;
+    }
+    background-color: $secondColor;
+    p {
+        background-color: $secondColor;
+        color: $primaryColor;
+    }
+    .who-iam-text {
+        .who-iam-title {
+            font-size: 3rem;
+            text-align: center;
+        }
+        .who-iam-paragraph {
+            text-align: left;
+            font-size: 1.3rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 900;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .who-iam {
+        width: 50rem;
+        .who-iam-text {
+            .who-iam-paragraph {
+                font-size: 2rem;
+            }
+            .who-iam-title {
+                font-size: 4rem;
+            }
+        }
+    }
+}
